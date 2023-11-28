@@ -56,3 +56,66 @@
     border-style: solid;
     border-width: 1px;
   }
+
+  p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 1.5em;
+    text-align: left;
+    margin-bottom: 2%;
+  }
+  h2 {
+    font-size: 35px;
+  }
+  
+  button {
+    flex-direction: row;
+    background-color: white;
+    border: none;
+    padding: 10px 27px;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+  
+  button a {
+    text-decoration: none;
+    color: #084c61;
+    text-align: center;
+  }
+  
+
+/* Class Selectors*/
+
+.lead-section {
+    display: flex;
+    width: 90%;
+    margin: 20px auto;
+    justify-content: center;
+  }
+  
+  .lead-section button {
+    font-size: 150%;
+  }
+  
+  .circular--portrait { 
+    position: relative; 
+    width: 300px; 
+    height: 300px; 
+    overflow: hidden; 
+    border-radius: 100%; 
+  } 
+
+.circular--portrait img { 
+    width: 100%; 
+    height: auto;}
+  
+  .lead-section-details {
+      margin-left: 5%;
+      flex: 0 0 60%;
+      color: white;
+    }
+  
+  .lead-section-details h2 {
+      color: #FCBA04;
+    }
+  
