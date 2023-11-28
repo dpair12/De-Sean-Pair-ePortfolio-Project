@@ -67,6 +67,24 @@
   h2 {
     font-size: 35px;
   }
+
+  h3 {
+    font-size: 30px;
+    margin-bottom: 2%;
+    color: #FCBA04;
+  }
+  h4 {
+    font-size: 27px;
+    font-weight: 400;
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+  h5 {
+    font-size: 24px;
+    font-weight: 100;
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
   
   button {
     flex-direction: row;
@@ -83,6 +101,13 @@
     text-align: center;
   }
   
+  li {
+    font-size: 24px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+  }
+    
 
 /* Class Selectors*/
 
@@ -118,4 +143,25 @@
   .lead-section-details h2 {
       color: #FCBA04;
     }
-  
+    
+    .white-background {
+        width: 100%;
+        background-color: white;
+        padding-top: 10px;
+        padding-bottom: 30px;
+      
+      }
+      
+      .white-background h2 {
+        text-align: center;
+        color: #084c61;
+      }
+      
+      .about-title {
+        text-align: center;
+        color: #084c61;
+      }
+      
+      .about-section {
+        margin: 60px;
+      }
