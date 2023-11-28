@@ -1,0 +1,58 @@
+/* Universal Selector */
+* {
+    box-sizing: border-box;
+  }
+  /* HTML Element Selectors */
+  
+  body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: flex-start;
+    background-color: #084c61;
+  }
+  header {
+    padding: 0px;
+    text-align: left;
+    background: white;
+  }
+  
+  header h1 {
+    color: #FCBA04;
+    margin-left: 60px;
+  }
+  
+  nav {
+    display: flex;
+    padding-bottom: 5px;
+    background-color: #FCBA04;
+    justify-content: space-evenly;
+   
+  }
+  
+  nav a {
+    color: white;
+    background-color: black;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    background-color: #084c61;
+    color: white;
+  }
+    
+  nav a:active {
+    background-color: white;
+    color: #084c61;
+  }
+    
+  nav a:focus {
+    border: #084c61;
+    border-style: solid;
+    border-width: 1px;
+  }
