@@ -143,7 +143,7 @@
   .lead-section-details h2 {
       color: #FCBA04;
     }
-    
+
     .white-background {
         width: 100%;
         background-color: white;
@@ -165,3 +165,57 @@
       .about-section {
         margin: 60px;
       }
+
+      .projects {
+        padding-bottom: 40px;
+      }
+      .projects h2 {
+        text-align: center;
+        color: #FCBA04;
+      }
+      
+      .projects0 {
+          display: flex;
+          flex-wrap: wrap;
+          margin-top: 2%;
+      }
+      
+      .card {
+        flex: 1 0 0;
+        text-align: center;
+        padding: 8px;
+        border: 2px #FCBA04;
+        border-style: solid;
+        margin: 40px;
+      }
+      
+      
+      .card header {
+        padding: 20px;
+        background: black;
+        color: white;
+        text-align: center;
+      }
+      
+      .card img {
+        width: 100%;
+        min-width: 200px;
+       }
+      
+       .card0 img {
+        width: 100%;
+        height: 600px;
+        min-width: 200px;
+       }
+      
+      .card p {
+        text-align: center;
+        color: white;
+      }
+      
+      .projects1 {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 2%;
+      }
+      
